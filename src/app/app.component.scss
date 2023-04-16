@@ -1,0 +1,20 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.ap-chart,
+.ap-chart-brush {
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  * {
+    width: 100%;
+  }
+}
+.ap-chart {
+  height: 60vh;
+}
+.ap-chart-brush {
+  margin-top: 1vh;
+}
